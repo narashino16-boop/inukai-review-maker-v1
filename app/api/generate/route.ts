@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 
 export async function POST(req: Request) {
   try {
-    const API_KEY = "AIzaSyATFWFPoCHeJMwQ9hLS7Yzap5Nu_XC7qc8";
+    const API_KEY = "AIzaSyDwQX-pBkpaMI7wqswxD41Ftkom3xVFKc8";
     const genAI = new GoogleGenerativeAI(API_KEY);
     
     // 💡 確実に通信が届いていた「gemini-2.0-flash」に固定します
